@@ -23,7 +23,7 @@ In this tutorial, we will be creating a VM and configuring Azure Sentinel to dis
 
 <h2>High-Level Steps</h2>
 
-- Creating a Microsoft Azure (Virtual Machines/Computer)
+- Creating a Honeypot (Microsoft Azure's Vulnerable Virtual Machines/Computer)
 - Disabling External and Windows Firewall
 - Using Custom PowerShell scripts
 - Creating a log repository for our exposed VM
