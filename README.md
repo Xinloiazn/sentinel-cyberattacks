@@ -57,3 +57,75 @@ In this tutorial, we will be creating a VM and configuring Azure Sentinel to dis
   <img src="https://i.imgur.com/DMMedkb.jpg" height="75%" width="100%" alt=""/>
 </p>
 <p>
+ Once saved - head over to Data Collection tab on the left and click "All Events".
+</p>
+<p>
+  <img src="https://i.imgur.com/L1T04Ip.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Now head back to your Log Analytics Workspace and connect your Honeypot VM.
+</p>
+<p>
+  <img src="https://i.imgur.com/ptfuh3Z.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  It's going to take a few minutes to connecet to your VM - so lets go ahead and open a new Azure portal tab and create our Azure Sentinel.
+</p>
+<p>
+  <img src="https://i.imgur.com/HG9v3IL.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Once you opened to the Azure Sentinel page, click create and connect this to your Log Analytics Workspace.
+</p>
+<p>
+  <img src="https://i.imgur.com/WrBMJvK.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Now that everything is connected - head back to your Honeypot VM and let's connect to it with Remote Desktop. Remember to open the VM and copy the Public IP Address. MacOS users should download Remote Desktop.
+</p>
+<p>
+  <img src="https://i.imgur.com/MDBRh6u.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Using the provided Public IP Address - put the information into your Remote Desktop and remember to login with the information you put down when you created your virtual machine.
+</p>
+<p>
+  <img src="https://i.imgur.com/urJnJVN.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Sometimes you'll be asked to log in with your main computer, if that happens, just click more choices > other users and you'll be able to login with the username and password you created. 
+</p>
+<p>
+  <img src="https://i.imgur.com/yvMeq6s.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
