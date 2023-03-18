@@ -42,6 +42,18 @@ In this tutorial, we will be creating a VM and configuring Azure Sentinel to dis
   First, let's create our Resource Group inside our Azure subscription and then create our Virtual Machine inside the Resource Group.
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt=""/>
+  <img src="https://i.imgur.com/ruA249D.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  While our VM is being created, we can go ahead and create our Log Analytics Workspace. Make sure the Resource Group aligns with the one you've created and make sure the regions match as well.
+</p>
+<p>
+  <img src="https://i.imgur.com/RGINI6i.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Next, lets go ahead to our Microsoft Defender for Cloud, go to Environment Settings, Enable all options, turn off SQL Servers and then click Save.
+</p>
+<p>
+  <img src="https://i.imgur.com/DMMedkb.jpg" height="75%" width="100%" alt=""/>
 </p>
 <p>
