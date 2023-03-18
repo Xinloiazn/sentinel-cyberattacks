@@ -129,16 +129,16 @@ In this tutorial, we will be creating a VM and configuring Azure Sentinel to dis
   <img src="https://i.imgur.com/ZP1Os9N.jpg" height="75%" width="100%" alt=""/>
 </p>
 <p>
-    Before that, however, we need to make sure our VM is exposed for the world to discover. Let's go back to our main computer and open up your command prompt/powershell. Send a perpetual ping "Ping [IP Address] -t"; it should fail.
+    Before that, however, we need to make sure our VM is exposed for the world to discover. Let's go back to our main computer and open up your command prompt/powershell. Send a perpetual ping "Ping [IP Address] -t"; it should fail and say "Request Timed Out". 
 </p>
 <p>
   <img src="https://i.imgur.com/ycyuFqO.jpg" height="75%" width="100%" alt=""/>
 </p>
 <p>
-    
+    In order to expose our VM, lets go back to our Virtual Machine and open up our firewall. Go to your search bar and type wf.msc and on the bottom, open Windows Defender Firewall Properties, and disable the firewall.
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt=""/>
+  <img src="https://i.imgur.com/MyxXr0Z.jpg" height="75%" width="100%" alt=""/>
 </p>
 <p>
     
