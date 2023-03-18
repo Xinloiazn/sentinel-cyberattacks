@@ -99,33 +99,94 @@ In this tutorial, we will be creating a VM and configuring Azure Sentinel to dis
   <img src="https://i.imgur.com/yvMeq6s.jpg" height="75%" width="100%" alt=""/>
 </p>
 <p>
-  
+  When you initially log into your VM, it may take a bit but that's normal. I personally uncheck all the initial requirements during bootup but it doesn't matter what you do. Once you're logged into the VM, head down to the search bar and type "Event Viewer" and open it up. It should look like this.
+</p>
+<p>
+  <img src="https://i.imgur.com/OHDCrJB.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Now on the left hand column, click on the "Windows Log" folder and you'll see a few dropdowns. Click the Security Tab. It should look like mine. It does take some time to load when you first open it, so be patient with it.
+</p>
+<p>
+  <img src="https://i.imgur.com/DRz3DaU.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Now when you initially look at the Event Viewer, you'll notice the left hand side of the chart will say Audit Successfull. We want to be able to see if we can see the Audit Failures and to do that, just go back to your main computer, open up ANOTHER Remote Desktop and intentionally input the wrong password 2-3 times. It should look like this in the Event Viewer tab once the logs see the attempted failed logins. We're primarily looking for Event ID 4625.
+</p>
+<p>
+  <img src="https://i.imgur.com/cEIRUgG.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  When you open up an Event ID 4625, you'll see that the list provides you the workstation name and IP Address of the attempted log in. It doesn't show you the location though and I'm going to show you how to set that portion up as well using a 3rd party site.
+</p>
+<p>
+  <img src="https://i.imgur.com/A5HKGwo.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+  Taking the IP Address that was given to us in the Event Viewer, we can use geolocation.io to take that IP Address and provide us the location of that IP Address by providing us the Latitude, Longitude, Country, City/Provinces etc.
+</p>
+<p>
+  <img src="https://i.imgur.com/ZP1Os9N.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    Before that, however, we need to make sure our VM is exposed for the world to discover. Let's go back to our main computer and open up your command prompt/powershell. Send a perpetual ping "Ping [IP Address] -t"; it should fail.
+</p>
+<p>
+  <img src="https://i.imgur.com/ycyuFqO.jpg" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
+</p>
+<p>
+  <img src="" height="75%" width="100%" alt=""/>
+</p>
+<p>
+    
 </p>
 <p>
   <img src="" height="75%" width="100%" alt=""/>
 </p>
 <p>
   
-</p>
-<p>
-  <img src="" height="75%" width="100%" alt=""/>
-</p>
-<p>
-  
-</p>
-<p>
-  <img src="" height="75%" width="100%" alt=""/>
-</p>
-<p>
-  
-</p>
-<p>
-  <img src="" height="75%" width="100%" alt=""/>
-</p>
-<p>
-  
-</p>
-<p>
-  <img src="" height="75%" width="100%" alt=""/>
-</p>
-<p>
